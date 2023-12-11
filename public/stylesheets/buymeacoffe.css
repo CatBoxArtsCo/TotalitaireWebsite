@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif, Helvetica;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("/images/Logo_ofc.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 160px;
+    height: 100px;
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(14,16,27);
+    background: linear-gradient(180deg, rgba(14,16,27,1) 88%, rgba(49,33,55,1) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 80px;
+    font-size: 2.2rem;
+}
+
+nav ul li a{
+    font-family: 'Windows Command Prompt', sans-serif, Helvetica;
+    color: #F7B58C;
+    text-decoration: none;
+    list-style: none;
+}
+
+.buyme{
+    font-size: 2.2rem;
+    color: #FFFFFF;
+    background-color: #471E4C;
+    padding: 9px 13px;
+    border-radius: 9px;
+    text-decoration: none;
+    list-style: none;
+}
+
