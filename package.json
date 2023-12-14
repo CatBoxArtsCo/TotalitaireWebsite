@@ -1,6 +1,5 @@
 {
   "name": "totalitaire",
-  "homepage": "https://catboxartsco.github.io/TotalitaireWebsite/",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -9,10 +8,12 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "axios": "^1.6.2",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
     "express": "~4.16.1",
+    "firebase-tools": "^13.0.1",
     "gh-pages": "^6.1.0",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",

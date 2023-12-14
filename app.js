@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var axios = require('axios');
 
 
 var app = express();
@@ -19,11 +20,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // ROTAS CRIADAS
 
-var indexRouter = require('./routes/index');
-var guiaRouter = require('./routes/guia');
-var timeRouter = require('./routes/time');
-var buymeRouter = require('./routes/buymeacoffe')
-var novidadesRouter = require('./routes/novidades')
+var indexRouter = require('./public/routes/index');
+var guiaRouter = require('./public/routes/guia');
+var timeRouter = require('./public/routes/time');
+var buymeRouter = require('./public/routes/buymeacoffe')
+var novidadesRouter = require('./public/routes/novidades');
 
 app.use('/', indexRouter);
 app.use('/guia', guiaRouter);
