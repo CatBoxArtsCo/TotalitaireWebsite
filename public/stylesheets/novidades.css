@@ -57,6 +57,13 @@ nav ul li a{
     border-radius: 9px;
     text-decoration: none;
     list-style: none;
+    transition: 0.2s ease-in-out;
+}
+
+.buyme:hover{
+    -webkit-box-shadow: 0px 5px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 5px 0px 0px rgba(0,0,0,1);
+    box-shadow: 0px 5px 0px 0px rgba(0,0,0,1);
 }
 
 .container-3{
@@ -229,6 +236,15 @@ nav ul li a{
     background-size: cover;
     width: 185px;
     height: 100px;
+}
+
+.bxl-instagram-alt{
+    font-size: 3.5rem;
+}
+
+.bxs-envelope{
+    font-size: 3.5rem;
+    color: #F7B58C;
 }
 
 
