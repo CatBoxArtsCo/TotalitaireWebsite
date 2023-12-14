@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // ROTAS CRIADAS
 
-var indexRouter = require('./public/index');
+var indexRouter = require('./routes/index');
 var guiaRouter = require('./routes/guia');
 var timeRouter = require('./routes/time');
 var buymeRouter = require('./routes/buymeacoffe')
